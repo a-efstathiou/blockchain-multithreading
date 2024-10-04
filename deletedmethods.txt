@@ -1,0 +1,10 @@
+BlockChain 
+
+ public void printBlockChain(){
+        //Transform into Json
+        List <Block> blockChain = getBlockChainList();
+        String json = new GsonBuilder().setPrettyPrinting().create().toJson(blockChain);
+        System.out.println("The blockChain:");
+        System.out.println(json);
+    }
+

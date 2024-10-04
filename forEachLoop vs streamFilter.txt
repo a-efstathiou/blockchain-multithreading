@@ -1,0 +1,41 @@
+forEachLoop
+
+# Parameters: (size = 1000)
+Result "com.athanasios.protal2023.V2.BlockChain.StreamVsForEachBenchmark.forEachLoop":
+  44128,578 ±(99.9%) 1333,120 ops/s [Average]
+  (min, avg, max) = (40572,482, 44128,578, 49508,501), stdev = 1779,677
+  CI (99.9%): [42795,458, 45461,698] (assumes normal distribution)
+
+# Parameters: (size = 10000)
+Result "com.athanasios.protal2023.V2.BlockChain.StreamVsForEachBenchmark.forEachLoop":
+  4107,978 ±(99.9%) 88,337 ops/s [Average]
+  (min, avg, max) = (3850,027, 4107,978, 4318,840), stdev = 117,927
+  CI (99.9%): [4019,641, 4196,315] (assumes normal distribution)
+
+# Parameters: (size = 100000)
+Result "com.athanasios.protal2023.V2.BlockChain.StreamVsForEachBenchmark.forEachLoop":
+  418,346 ±(99.9%) 21,690 ops/s [Average]
+  (min, avg, max) = (319,833, 418,346, 472,476), stdev = 28,956
+  CI (99.9%): [396,656, 440,036] (assumes normal distribution)
+
+
+steamFilter
+
+# Parameters: (size = 1000)
+Result "com.athanasios.protal2023.V2.BlockChain.StreamVsForEachBenchmark.streamFilter":
+  39285,925 ±(99.9%) 951,910 ops/s [Average]
+  (min, avg, max) = (36912,317, 39285,925, 42002,329), stdev = 1270,773
+  CI (99.9%): [38334,015, 40237,835] (assumes normal distribution)
+
+# Parameters: (size = 10000)
+Result "com.athanasios.protal2023.V2.BlockChain.StreamVsForEachBenchmark.streamFilter":
+  3627,694 ±(99.9%) 181,278 ops/s [Average]
+  (min, avg, max) = (3059,117, 3627,694, 3971,768), stdev = 242,001
+  CI (99.9%): [3446,416, 3808,971] (assumes normal distribution)
+
+# Parameters: (size = 100000)
+Result "com.athanasios.protal2023.V2.BlockChain.StreamVsForEachBenchmark.streamFilter":
+  316,499 ±(99.9%) 8,716 ops/s [Average]
+  (min, avg, max) = (292,675, 316,499, 335,842), stdev = 11,635
+  CI (99.9%): [307,783, 325,215] (assumes normal distribution)
+
